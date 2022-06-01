@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://images4.alphacoders.com/909/thumb-1920-909912.png);
+    background-size: cover;
+    height: auto;
+    
+}
+
+nav {
+    background: rgb(74, 41, 223);
+    color: #fff;
+    font-size: medium;
+    font-style: italic;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+}
+nav.tablogo{
+    font-size: large;
+    
+    
+}
+
+
+ul.menu li a{
+    color: black;
+    text-decoration: none;
+}
+
+ul.menu {
+    display: flex;
+    list-style: none;
+}ul.menu li{
+    margin-left: 2rem;
+    font-size: medium;
+    font-style: inherit;
+}
+
+
+
+header{
+    
+    padding: 0 32rem;
+}
+header > section > h1 {
+    font-size: 50px;
+    margin: 2rem auto;
+    font-family: Mukta;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.paragraph{
+    
+    font-size: 2rem;
+    margin: -3rem 3rem;
+    color: #fff;
+    font-family: Mukta;
+    text-align: center;
+    
+}
+
+
+main{
+    text-align: center;
+    
+}
+
+.pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 4rem;
+    padding: 3rem;
+    
+}/*ไม่ได้ใช้*/
+/*
+main {
+    padding: 3rem;
+    display: flex;
+}*/
+
+.pictures figure{
+    font-family: Mukta;
+    color: #fff;
+}.head{
+    font-size: 2rem;
+    padding: 0 3rem;
+}
+    
+
+header>section>h1>a{
+    color: #fff;
+    text-decoration: none;
+
+}
+footer{
+    text-align: center;
+    background: url(https://cdn.wallpapersafari.com/99/29/cZNxT3.jpg);
+    padding: 2rem;
+    
+}
