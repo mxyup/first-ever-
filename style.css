@@ -7,6 +7,8 @@ body {
     background: url(https://images4.alphacoders.com/909/thumb-1920-909912.png);
     background-size: cover;
     height: auto;
+    width: auto;
+    object-fit: cover;
     
 }
 
@@ -64,6 +66,7 @@ header > section > h1 {
     color: #fff;
     font-family: Mukta;
     text-align: center;
+    
     
 }
 
